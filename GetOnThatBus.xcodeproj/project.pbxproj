@@ -9,11 +9,16 @@
 /* Begin PBXBuildFile section */
 		3FF37F731B6824DA00BC95F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FF37F721B6824DA00BC95F3 /* main.m */; };
 		3FF37F761B6824DA00BC95F3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FF37F751B6824DA00BC95F3 /* AppDelegate.m */; };
-		3FF37F791B6824DA00BC95F3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FF37F781B6824DA00BC95F3 /* ViewController.m */; };
 		3FF37F7C1B6824DA00BC95F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FF37F7A1B6824DA00BC95F3 /* Main.storyboard */; };
 		3FF37F7E1B6824DA00BC95F3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FF37F7D1B6824DA00BC95F3 /* Images.xcassets */; };
 		3FF37F811B6824DA00BC95F3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FF37F7F1B6824DA00BC95F3 /* LaunchScreen.xib */; };
 		3FF37F8D1B6824DA00BC95F3 /* GetOnThatBusTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FF37F8C1B6824DA00BC95F3 /* GetOnThatBusTests.m */; };
+		3FF37F981B68251A00BC95F3 /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FF37F971B68251A00BC95F3 /* Model.m */; };
+		3FF37F9C1B6825D800BC95F3 /* BusStop.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FF37F9B1B6825D800BC95F3 /* BusStop.m */; };
+		3FF37F9F1B68288500BC95F3 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FF37F9E1B68288500BC95F3 /* MapViewController.m */; };
+		3FF37FA21B68288F00BC95F3 /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FF37FA11B68288F00BC95F3 /* ListViewController.m */; };
+		3FF37FA51B68289B00BC95F3 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FF37FA41B68289B00BC95F3 /* DetailViewController.m */; };
+		3FF37FA71B6837E300BC95F3 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FF37FA61B6837E300BC95F3 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +37,23 @@
 		3FF37F721B6824DA00BC95F3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3FF37F741B6824DA00BC95F3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3FF37F751B6824DA00BC95F3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3FF37F771B6824DA00BC95F3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3FF37F781B6824DA00BC95F3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		3FF37F7B1B6824DA00BC95F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3FF37F7D1B6824DA00BC95F3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3FF37F801B6824DA00BC95F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		3FF37F861B6824DA00BC95F3 /* GetOnThatBusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GetOnThatBusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FF37F8B1B6824DA00BC95F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3FF37F8C1B6824DA00BC95F3 /* GetOnThatBusTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GetOnThatBusTests.m; sourceTree = "<group>"; };
+		3FF37F961B68251A00BC95F3 /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		3FF37F971B68251A00BC95F3 /* Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
+		3FF37F9A1B6825D800BC95F3 /* BusStop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusStop.h; sourceTree = "<group>"; };
+		3FF37F9B1B6825D800BC95F3 /* BusStop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusStop.m; sourceTree = "<group>"; };
+		3FF37F9D1B68288500BC95F3 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		3FF37F9E1B68288500BC95F3 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		3FF37FA01B68288F00BC95F3 /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
+		3FF37FA11B68288F00BC95F3 /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
+		3FF37FA31B68289B00BC95F3 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		3FF37FA41B68289B00BC95F3 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		3FF37FA61B6837E300BC95F3 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FF37FA71B6837E300BC95F3 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +78,7 @@
 		3FF37F641B6824DA00BC95F3 = {
 			isa = PBXGroup;
 			children = (
+				3FF37FA61B6837E300BC95F3 /* MapKit.framework */,
 				3FF37F6F1B6824DA00BC95F3 /* GetOnThatBus */,
 				3FF37F891B6824DA00BC95F3 /* GetOnThatBusTests */,
 				3FF37F6E1B6824DA00BC95F3 /* Products */,
@@ -83,8 +99,13 @@
 			children = (
 				3FF37F741B6824DA00BC95F3 /* AppDelegate.h */,
 				3FF37F751B6824DA00BC95F3 /* AppDelegate.m */,
-				3FF37F771B6824DA00BC95F3 /* ViewController.h */,
-				3FF37F781B6824DA00BC95F3 /* ViewController.m */,
+				3FF37F9D1B68288500BC95F3 /* MapViewController.h */,
+				3FF37F9E1B68288500BC95F3 /* MapViewController.m */,
+				3FF37FA01B68288F00BC95F3 /* ListViewController.h */,
+				3FF37FA11B68288F00BC95F3 /* ListViewController.m */,
+				3FF37FA31B68289B00BC95F3 /* DetailViewController.h */,
+				3FF37FA41B68289B00BC95F3 /* DetailViewController.m */,
+				3FF37F991B68257100BC95F3 /* Models */,
 				3FF37F7A1B6824DA00BC95F3 /* Main.storyboard */,
 				3FF37F7D1B6824DA00BC95F3 /* Images.xcassets */,
 				3FF37F7F1B6824DA00BC95F3 /* LaunchScreen.xib */,
@@ -117,6 +138,17 @@
 				3FF37F8B1B6824DA00BC95F3 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3FF37F991B68257100BC95F3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3FF37F961B68251A00BC95F3 /* Model.h */,
+				3FF37F971B68251A00BC95F3 /* Model.m */,
+				3FF37F9A1B6825D800BC95F3 /* BusStop.h */,
+				3FF37F9B1B6825D800BC95F3 /* BusStop.m */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,9 +251,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FF37F791B6824DA00BC95F3 /* ViewController.m in Sources */,
 				3FF37F761B6824DA00BC95F3 /* AppDelegate.m in Sources */,
+				3FF37F9C1B6825D800BC95F3 /* BusStop.m in Sources */,
+				3FF37FA21B68288F00BC95F3 /* ListViewController.m in Sources */,
+				3FF37F9F1B68288500BC95F3 /* MapViewController.m in Sources */,
 				3FF37F731B6824DA00BC95F3 /* main.m in Sources */,
+				3FF37F981B68251A00BC95F3 /* Model.m in Sources */,
+				3FF37FA51B68289B00BC95F3 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,7 +318,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
