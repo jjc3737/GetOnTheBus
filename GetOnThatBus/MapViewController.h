@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "Model.h"
 #import <MapKit/MapKit.h>
+#import "BusStopAnnotation.h"
 
 @interface MapViewController : UIViewController <ModelDelegate, MKMapViewDelegate>
 @property Model *model;

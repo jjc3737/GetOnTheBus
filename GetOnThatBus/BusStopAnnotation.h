@@ -1,15 +1,16 @@
 //
-//  DetailViewController.h
+//  BusStopAnnotation.h
 //  GetOnThatBus
 //
 //  Created by Jaehee Chung on 7/28/15.
 //  Copyright (c) 2015 Jaehee Chung. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import <MapKit/MapKit.h>
 #import "BusStop.h"
 
-@interface DetailViewController : UIViewController
+@interface BusStopAnnotation : MKPointAnnotation
 
-@property BusStop *busStop;
+@property BusStop *bustop; 
+
 @end

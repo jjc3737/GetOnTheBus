@@ -9,6 +9,9 @@
 #import "DetailViewController.h"
 
 @interface DetailViewController ()
+@property (weak, nonatomic) IBOutlet UILabel *addressLabel;
+@property (weak, nonatomic) IBOutlet UILabel *routesLabel;
+@property (weak, nonatomic) IBOutlet UILabel *intermodalLabel;
 
 @end
 
@@ -17,13 +20,16 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    [self setUpLabelsandTitle];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+-(void)setUpLabelsandTitle {
+    self.title = self.busStop.cta_stop_name;
+    self.intermodalLabel.text = self.busStop.inter_modal;
+    self.routesLabel.text = self.busStop.routes;
+    self.addressLabel.text = @"Fix";
 }
-
 /*
 #pragma mark - Navigation
 

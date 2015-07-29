@@ -19,6 +19,7 @@
 		3FF37FA21B68288F00BC95F3 /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FF37FA11B68288F00BC95F3 /* ListViewController.m */; };
 		3FF37FA51B68289B00BC95F3 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FF37FA41B68289B00BC95F3 /* DetailViewController.m */; };
 		3FF37FA71B6837E300BC95F3 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FF37FA61B6837E300BC95F3 /* MapKit.framework */; };
+		3FF37FAA1B68618A00BC95F3 /* BusStopAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FF37FA91B68618A00BC95F3 /* BusStopAnnotation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		3FF37FA31B68289B00BC95F3 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		3FF37FA41B68289B00BC95F3 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		3FF37FA61B6837E300BC95F3 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		3FF37FA81B68618A00BC95F3 /* BusStopAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusStopAnnotation.h; sourceTree = "<group>"; };
+		3FF37FA91B68618A00BC95F3 /* BusStopAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusStopAnnotation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				3FF37FA11B68288F00BC95F3 /* ListViewController.m */,
 				3FF37FA31B68289B00BC95F3 /* DetailViewController.h */,
 				3FF37FA41B68289B00BC95F3 /* DetailViewController.m */,
+				3FF37FA81B68618A00BC95F3 /* BusStopAnnotation.h */,
+				3FF37FA91B68618A00BC95F3 /* BusStopAnnotation.m */,
 				3FF37F991B68257100BC95F3 /* Models */,
 				3FF37F7A1B6824DA00BC95F3 /* Main.storyboard */,
 				3FF37F7D1B6824DA00BC95F3 /* Images.xcassets */,
@@ -252,6 +257,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3FF37F761B6824DA00BC95F3 /* AppDelegate.m in Sources */,
+				3FF37FAA1B68618A00BC95F3 /* BusStopAnnotation.m in Sources */,
 				3FF37F9C1B6825D800BC95F3 /* BusStop.m in Sources */,
 				3FF37FA21B68288F00BC95F3 /* ListViewController.m in Sources */,
 				3FF37F9F1B68288500BC95F3 /* MapViewController.m in Sources */,
